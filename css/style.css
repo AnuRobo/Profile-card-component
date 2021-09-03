@@ -7,7 +7,6 @@
 
 /*===========Layout==========*/
 body{
-    min-height: 100vh;
     margin: 0;
     font-family: "kumbh Sans",sans-serif;
     font-size: 18px;
@@ -15,7 +14,6 @@ body{
     overflow: hidden;
 }
 section{
-    padding:0 1.2em
     background: var(--Dark-cyan);
     min-height: 100vh;
     display: flex;
@@ -25,7 +23,7 @@ section{
 
 .card{
     min-height: 100%;
-    min-width: 100%;
+    max-width: 100%;
     background-color: #ffffff;
     text-align: center;
     position: relative;
